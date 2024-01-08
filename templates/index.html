@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../static/res/style.css">
+		<script src="../static/js/echarts.min.js"></script>
+<title>pika_noeat</title>
+</head>
+<body class="fill-parent"
+>
+
+<!--标题-->
+<div class="head">
+	<div class="title"><label>票房统计分析</label></div>
+</div>
+
+
+<div class="content">
+<!--左上角 -->
+	<div class="layout layout-left-top">
+		<div class="panel  panel-bg no-title-bg">
+			<div class="title"><label>各年度票房平均值变化折线</label></div>
+			<div class="chart" id="line"></div>
+		</div>
+	</div>
+
+<!--左中 -->
+	<div class="layout layout-left-center">
+		<div class="panel">
+			<div class="title"><label></label></div>
+			<div class="chart" id="huan" ></div>
+		</div>
+	</div>
+
+
+
+
+<!--中间部分 -->
+	<div class="layout layout-center">
+		<!--中上 ok	-->
+		<div class="layout layout-center-main">
+			<div class="layout layout-center-top">
+				<div class="panel no-title-bg">
+					<div class="title"><label>各类型电影数量、平均和最高票房</label></div>
+					<div class="chart" id="bar"></div>
+				</div>
+			</div>
+
+            <!--中下	-->
+			<div class="layout layout-center-bottom">
+				<div class="panel no-title-bg">
+					<div class="title"><label>学院与专业的比例</label></div>
+					<div class="chart" id="Nightingale Chart"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!--右上	-->
+	<div class="layout layout-right-top">
+		<div class="panel">
+			<div class="title"><label>2008-2023年票房Top10</label></div>
+			<div class="chart" id="top2"></div>
+		</div>
+	</div>
+
+
+<!--右中	-->
+	<div class="layout layout-right-center">
+		<div class="panel">
+			<div class="title"><label>2023年、2015年和2010年各类型数值</label></div>
+			<div class="chart" id="ld"></div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--    导入包-->
+	<script type="text/javascript" src="../static/js/mychart.js"></script>
+</body>
+</html>
